@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    	<meta charset="utf-8">
+    	<meta name="description" content="This is where your description goes">
+    	<meta name="keywords" content="one, two, three">
+
+		<title>Title in the tab</title>
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h2>Raki's Wardrobe</h2>
+			<h2 class="season">Spring Wardrobe</h2>
+		</header>
+
+		<main>
+			<span id="notMatch" class="match bad hidden">Mis-match!</span>
+			<span id="isMatch" class="match good hidden">Match!</span>
+	
+			<span id="clear" class="purpleButton">Clear</span>
+
+			<div class="closet">
+				<section id="tops" class="outfitArea">
+					<div class="selectionView">
+						<img id="pinkTopSelected" class="hidden" src="img/pink-top.gif" alt="Pink Shirt">
+						<img id="purpleTopSelected" class="hidden" src="img/purple-top.gif" alt="Purple Shirt">
+						<img id="yellowTopSelected" class="hidden" src="img/yellow-top.gif" alt="Yellow Blouse">
+					</div>
+					<section class="selection">
+						<div class="clothes button">
+							<img id="pinkTop" src="img/pink-top.gif" alt="Pink Shirt">
+						</div>
+						<div class="clothes button">
+							<img id="purpleTop" src="img/purple-top.gif" alt="Purple Shirt">
+						</div>
+						<div class="clothes button">
+							<img id="yellowTop" src="img/yellow-top.gif" alt="Yellow Blouse">
+						</div>
+					</section>
+				</section>
+				<section id="bottoms" class="outfitArea">
+					<div class="selectionView">
+						<img id="blueBottomSelected" class="hidden" src="img/blue-jeans.gif" alt="Blue Jeans">
+						<img id="whitePantBottomSelected" class="hidden" src="img/white-pants.gif" alt="White Pants">
+						<img id="whiteSkirtBottomSelected" class="hidden" src="img/white-skirt.gif" alt="White Skirt">
+					</div>
+		
+					<section class="selection">
+						<div class="clothes button">
+							<img id="blueBottom" src="img/blue-jeans.gif" alt="Blue Jeans">
+						</div>
+						<div class="clothes button">
+							<img id="whitePantBottom" src="img/white-pants.gif" alt="White Pants">
+						</div>
+						<div class="clothes button">
+							<img id="whiteSkirtBottom" src="img/white-skirt.gif" alt="White Skirt">
+						</div>
+					</section>
+				</section>	
+			</div>
+
+			<span id="dressMe" class="button">Dress me</span>
+		</main>
+
+
+		<footer>
+			<ul>
+				<li><span>Shoes</span></li>
+				<li><span>Socks</span></li>
+				<li><span>Jewelry</span></li>
+				<li><span>Hats</span></li>
+				<li><span>Sweaters</span></li>
+				<li><span>Coat</span></li>
+				<li><span>Vest</span></li>
+				<li><span>Tights</span></li>
+				<li><span>Gloves</span></li>
+
+			</ul>			
+		</footer>
+
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
