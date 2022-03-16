@@ -1,0 +1,171 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* Base
+/*******************************************/
+body {
+  background: url('../img/leoperad-print.jpg');
+  background-size: contain;
+  font-family: 'VT323', Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header, footer {
+  color: white;
+  background: rgb(27, 3, 45);
+}
+
+h2, footer span{
+  margin: 5px 0;
+  font-size: 0.8rem;
+}
+
+.purpleButton,
+.button {
+  font-size: 2rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+  display: flex;
+  padding: 0 25px;
+}
+
+.season {
+  width: 150px;
+  margin: auto auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+main > .purpleButton,
+main > .button {
+  align-self: flex-end;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 150px;
+}
+
+.selection {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 355px;
+  height: 90px;
+}
+
+
+.clothes img {
+  width: 93px;
+  height: 60px;
+}
+
+.selectionView {
+  width: 355px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+}
+
+.clothes {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.hidden {
+  display: none;
+}
+
+.selection {
+  background: rgb(36, 36, 36);
+}
+
+.selectionView {
+  background: white;
+  border-top: 5px solid rgb(223, 223, 223);
+  border-left: 5px solid rgb(223, 223, 223);
+  border-right: 5px solid rgb(36, 36, 36);
+  border-bottom: 5px solid rgb(36, 36, 36);
+}
+
+.button {
+  background: rgb(144, 144, 144);
+  border-top: 5px solid rgb(223, 223, 223);
+  border-left: 5px solid rgb(223, 223, 223);
+  border-right: 5px solid rgb(36, 36, 36);
+  border-bottom: 5px solid rgb(36, 36, 36);
+  padding: 10px 5px;
+}
+
+.button:hover {
+  background: rgb(114, 114, 114);
+}
+
+.purpleButton {
+  background: rgb(168, 130, 205);
+  border-top: 5px solid rgb(223, 223, 223);
+  border-left: 5px solid rgb(223, 223, 223);
+  border-right: 5px solid rgb(36, 36, 36);
+  border-bottom: 5px solid rgb(36, 36, 36);
+  padding: 10px 5px;
+}
+
+.purpleButton:hover {
+  background: rgb(131, 102, 160);
+}
+
+.match {
+  font-size: 8rem;
+  width: 600px;
+  position: absolute;
+  top: 240px;
+  color: rgb(27, 3, 45);
+  text-align: center;
+}
+
+.bad {
+  background:rgb(221, 200, 242);
+  border: 2px solid rgb(27, 3, 45);
+}
+
+.good {
+  background:rgb(223, 242, 200);
+  border: 2px solid rgb(3, 45, 32);
+}
