@@ -1,7 +1,7 @@
 # Outfit Generator
 A simple outfit generator inspired from the movie Clueless. You can pick your top and bottom and the generator will tell you if the two are a match.
 
-Link to project: [https://everlasting-caring-chips.glitch.me/](https://everlasting-caring-chips.glitch.me/)
+Link to project: [https://clueless-outfit-generator.netlify.app/](https://clueless-outfit-generator.netlify.app/)
 
 ## How It's Made
 Technologies used: HTML5, CSS3, Javascript
